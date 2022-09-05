@@ -17,17 +17,30 @@ import AvatarWithBadge from 'components/AvatarWithBadge';
 import BadgeComponent from 'components/Badge';
 import ChipComponent from 'components/Chip';
 import DividerComponent from 'components/Divider';
+import FloatingActionButtonZoom from 'components/ButtonWithAnimation';
+import RadioGroupRating from 'components/styledRating';
+import TableComponent from 'components/Table';
+import TooltipComponent from 'components/Tooltip';
+import AlertComponent from 'components/Alert';
+import BackdropComponent from 'components/Backdrop';
+import DialogComponent from 'components/Dialog';
+import ProgressComponent from 'components/Progress';
+import CircularProgressWithLabelComponent from 'components/ProgressWithLabel';
+import SkeletonComponent from 'components/Skeleton';
+import SnackbarComponent from 'components/Snackbar';
 
 const App = () => {
   return (
     <div className='App'>
       {/* Inputs */}
       <ButtonComponent />
+      <FloatingActionButtonZoom />
       <AutoCompleteComponent />
       <CheckboxComponent />
       <FabComponent />
       <RadioButtonComponent />
       <RatingComponent />
+      <RadioGroupRating />
       <SelectComponent />
       <SliderComponent />
       <SwitchComponent />
@@ -40,6 +53,17 @@ const App = () => {
       <BadgeComponent />
       <ChipComponent />
       <DividerComponent />
+      <TableComponent />
+      <TooltipComponent />
+      {/* Feedback */}
+      <AlertComponent />
+      <BackdropComponent />
+      <DialogComponent />
+      <ProgressComponent />
+      <CircularProgressWithLabelComponent />
+      <SkeletonComponent />
+      <SnackbarComponent />
+      {/* Surfaces */}
     </div>
   );
 };

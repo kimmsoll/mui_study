@@ -1,9 +1,10 @@
 import { FormControlLabel, FormGroup, Switch } from '@mui/material';
-import { useState } from 'react';
+import { useState, ChangeEvent } from 'react';
 
 const SwitchComponent = () => {
   const [checked, setChecked] = useState(true);
-  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+
+  const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
     setChecked(event.target.checked);
     console.log(event.target.checked);
   };

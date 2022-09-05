@@ -1,3 +1,4 @@
+import { Favorite } from '@mui/icons-material';
 import { Rating, Typography } from '@mui/material';
 import { useState } from 'react';
 
@@ -16,7 +17,7 @@ const RatingComponent = () => {
         }}
       />
       <Typography component='legend'>Read only</Typography>
-      <Rating name='read-only' value={value} readOnly size='small' />
+      <Rating value={value} size='small' emptyIcon={<Favorite style={{ opacity: 0.55 }} fontSize='inherit' />} />
       <Typography component='legend'>Disabled</Typography>
       <Rating name='disabled' value={value} disabled size='large' />
       <Typography component='legend'>No rating given</Typography>

@@ -1,6 +1,8 @@
 import { Favorite, FavoriteBorder, Navigation } from '@mui/icons-material';
 import { Checkbox, Fab } from '@mui/material';
 
+// Fab === Floating action button
+
 const FabComponent = () => {
   return (
     <>
@@ -8,8 +10,8 @@ const FabComponent = () => {
         <Navigation sx={{ mr: 1 }} />
         Navigate
       </Fab>
+
       <Fab aria-label='like' size='medium'>
-        {/* <Favorite /> */}
         <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} />
       </Fab>
     </>
