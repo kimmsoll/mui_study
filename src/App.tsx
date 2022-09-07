@@ -28,11 +28,16 @@ import ProgressComponent from 'components/Progress';
 import CircularProgressWithLabelComponent from 'components/ProgressWithLabel';
 import SkeletonComponent from 'components/Skeleton';
 import SnackbarComponent from 'components/Snackbar';
+import AccordionComponent from 'components/Accordion';
+import BreadcrumbsComponent from 'components/Breadcumbs';
+import BottomNavigationComponent from 'components/BottomNavigation';
+import AppbarComponent from 'components/Appbar';
 
 const App = () => {
   return (
     <div className='App'>
       {/* Inputs */}
+
       <ButtonComponent />
       <FloatingActionButtonZoom />
       <AutoCompleteComponent />
@@ -47,7 +52,9 @@ const App = () => {
       <TextFieldComponent />
       <TransferListComponent />
       <ToggleButtonComponent />
+
       {/* Data Display */}
+
       <AvatarComponent />
       <AvatarWithBadge />
       <BadgeComponent />
@@ -55,7 +62,10 @@ const App = () => {
       <DividerComponent />
       <TableComponent />
       <TooltipComponent />
+      {/* (List) */}
+
       {/* Feedback */}
+
       <AlertComponent />
       <BackdropComponent />
       <DialogComponent />
@@ -63,7 +73,47 @@ const App = () => {
       <CircularProgressWithLabelComponent />
       <SkeletonComponent />
       <SnackbarComponent />
+
       {/* Surfaces */}
+
+      <AccordionComponent />
+      <AppbarComponent />
+      {/* (Card) */}
+      {/* (Paper) */}
+
+      {/* Navigation */}
+
+      <BottomNavigationComponent />
+      <BreadcrumbsComponent />
+      {/* (Drawer) */}
+      {/* (Link) */}
+      {/* (Menu) */}
+      {/* (Pagination) */}
+      {/* (Speed dial) */}
+      {/* (Stepper) */}
+      {/* (Tabs) */}
+
+      {/* Layout */}
+
+      {/* (Box) */}
+      {/* (Container) */}
+      {/* (Grid) */}
+      {/* (Stack) */}
+      {/* (Image list) */}
+      {/* (Hidden) */}
+
+      {/* Utils */}
+
+      {/* (Click-away listener) */}
+      {/* (CSS Baseline) */}
+      {/* (Modal) */}
+      {/* (No SSR) */}
+      {/* (Popover) */}
+      {/* (Popper) */}
+      {/* (Portal) */}
+      {/* (Textarea autorize) */}
+      {/* (Transitions) */}
+      {/* (useMediaQuery) */}
     </div>
   );
 };
